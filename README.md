@@ -39,8 +39,9 @@ This analysis aims to provide data-driven insights to support a strategic expans
 ### 📦 Delivery Performance (Operational Insight)
 ![Delivery Performance](images_delivery_performance.png)
 
-- ~92% of orders delivered on time  
-- Delayed orders take significantly longer (~30 days vs ~10 days)  
+- Delivery reliability is high (~92% on-time), indicating stable logistics performance
+- However, delays are severe (~3x longer), creating a disproportionate negative customer experience risk
+- This suggests that improving delay handling (not overall delivery rate) is the highest-impact operational lever
 - Delivery speed is a key driver of customer experience  
 
 ---
@@ -51,8 +52,9 @@ This analysis aims to provide data-driven insights to support a strategic expans
 
 - Revenue grew rapidly from 2017 to early 2018, indicating increasing market demand for tech products
 - Peak reached in 2018 Q1  
-- Decline after 2018 Q1 indicates potential market saturation or operational inefficiencies
-
+- Revenue peaks in 2018 Q1 and declines afterwards
+- Without additional data (costs, competition, marketing), the cause cannot be confirmed
+- This signals a need for deeper investigation before making expansion decisions
 
 ---
 
@@ -61,6 +63,21 @@ This analysis aims to provide data-driven insights to support a strategic expans
 - Tech products show strong market demand with clear growth until 2018
 - Delivery performance is high (~92% on-time) but delays significantly impact experience
 - Mid-range products outperform → customers are price-sensitive
+
+  ## 💼 Business Recommendation
+
+Based on the analysis:
+
+- The tech category shows strong demand and growth potential
+- Mid-range products perform best → pricing strategy is critical
+- Delivery reliability is high, but delays have high impact
+
+👉 Recommendation:
+Focus expansion on mid-range tech products while prioritizing logistics improvements for delayed deliveries.
+
+👉 Risk:
+Revenue decline after 2018 suggests uncertainty — further validation is required before scaling.
+
 ---
 
 ## 📊 Visualizations

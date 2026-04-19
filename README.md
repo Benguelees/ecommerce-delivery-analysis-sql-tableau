@@ -37,7 +37,7 @@ This analysis aims to provide data-driven insights to support a strategic expans
 ## 🔍 Key Insights
 
 ### 📦 Delivery Performance (Operational Insight)
-![Delivery Performance](images/delivery_performance.png)
+![Delivery Performance](images_delivery_performance.png)
 
 - ~92% of orders delivered on time  
 - Delayed orders take significantly longer (~30 days vs ~10 days)  
@@ -47,7 +47,7 @@ This analysis aims to provide data-driven insights to support a strategic expans
 
 ### 📈 Revenue Trends Over Time (Business Growth Analysis)
 
-![Revenue Trends](images/revenue_trends.png)
+![Revenue Trends](revenue_trends.png)
 
 - Revenue grew rapidly from 2017 to early 2018, indicating increasing market demand for tech products
 - Peak reached in 2018 Q1  

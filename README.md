@@ -64,8 +64,8 @@ This analysis aims to provide data-driven insights to support a strategic expans
 - Delivery performance is high (~92% on-time) but delays significantly impact experience
 - Mid-range products outperform → customers are price-sensitive
 
-  ## 💼 Business Recommendation
-
+## 💼 Business Recommendation
+ 
 Based on the analysis:
 
 - The tech category shows strong demand and growth potential

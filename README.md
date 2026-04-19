@@ -2,10 +2,13 @@
 
 ## 📌 Problem
 
-An e-commerce company wants to understand whether it should expand its technology product line.
-The key question:
-👉 **Is there demand, and what drives delivery performance and customer behavior?**
+An e-commerce company is evaluating whether to expand its technology product line.  
 
+The key challenge is to understand:  
+- Is there strong and sustainable demand for tech products?  
+- What factors influence delivery performance and customer satisfaction?  
+
+This analysis aims to provide data-driven insights to support a strategic expansion decision.
 ---
 
 ## 📊 Dataset
@@ -33,11 +36,32 @@ The key question:
 
 ## 🔍 Key Insights
 
-* 📈 Strong demand for technology products (electronics, accessories)
-* 💰 Customers are highly price-sensitive → mid-range products perform best
-* 🚚 ~92% of deliveries arrive on time
-* ⏱ Average delivery time ≈ 12.5 days
-* ❗ Delivery delays are **not strongly influenced by product size**
+### 📦 Delivery Performance (Operational Insight)
+![Delivery Performance](images/delivery_performance.png)
+
+- ~92% of orders delivered on time  
+- Delayed orders take significantly longer (~30 days vs ~10 days)  
+- Delivery speed is a key driver of customer experience  
+
+---
+
+### 📈 Revenue Trends Over Time (Business Growth Analysis)
+
+![Revenue Trends](images/revenue_trends.png)
+
+- Strong growth from 2017 to early 2018  
+- Peak reached in 2018 Q1  
+- Decline after 2018 Q1 indicates potential market saturation or operational inefficiencies
+
+
+---
+
+### 📊 Summary Insights
+
+- 📈 Strong demand for technology products (electronics, accessories)  
+- 💰 Customers are highly price-sensitive → mid-range products perform best  
+- ⏱️ Average delivery time ≈ 12.5 days  
+- ❗ Delivery delays are **not strongly influenced by product size**  
 
 ---
 

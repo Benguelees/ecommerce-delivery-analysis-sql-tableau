@@ -70,14 +70,22 @@ Strong demand for tech products is offset by declining revenue after 2018 Q1 and
 
 ## 💼 Business Recommendation
 
-- Focus expansion on **mid-range tech products**
-- Prioritize **reducing extreme delivery delays**
-- Maintain logistics performance while improving consistency  
+**Recommendation:**  
+Proceed with expansion in the technology category, focusing on mid-range products, while addressing key operational risks.
 
-⚠️ Risk:
-- Revenue decline requires validation before scaling  
-- Further analysis needed (costs, competition, marketing)
+### Strategic Actions
 
+- Expand **mid-range tech products**, where demand and volume are strongest  
+- Reduce **extreme delivery delays**, which significantly impact customer experience  
+- Improve logistics consistency to maintain high on-time delivery performance (~92%)
+
+### ⚠️ Key Risks
+
+- Revenue decline after 2018 Q1 introduces uncertainty in demand sustainability  
+- Root cause of decline is unclear (potential factors: competition, pricing, marketing, operations)
+
+**Next Step:**  
+Validate revenue trends and investigate cost and market dynamics before scaling aggressively.
 ---
 
 ## 💻 SQL Analysis (Core Queries)

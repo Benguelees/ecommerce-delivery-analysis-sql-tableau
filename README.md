@@ -4,94 +4,83 @@
 
 An e-commerce company is evaluating whether to expand its technology product line.
 
-The key questions:
+Key questions:
 - Is there strong and sustainable demand for tech products?
-- What factors influence delivery performance and customer satisfaction?
+- What drives delivery performance and customer satisfaction?
 
-👉 Goal: Provide data-driven insights to support a strategic expansion decision.
+👉 Objective: Deliver actionable insights to support a data-driven expansion decision.
 
 ---
 
 ## 📊 Dataset
 
-- Source: Magist e-commerce database  
+- Source: Magist e-commerce dataset  
 - ~100,000 orders  
 - Time period: 2016–2018  
-- Tables: orders, products, sellers, customers, payments, reviews  
+- Data includes: orders, products, sellers, customers, payments, reviews  
 
 ---
 
-## ⚙️ Approach
+## ⚙️ Tools & Skills
 
-- Cleaned and explored data using SQL  
-- Joined multiple tables to create analysis-ready datasets  
-- Analyzed:
-  - Product categories
-  - Pricing behavior
-  - Delivery performance
-  - Customer reviews  
-- Built dashboards in Tableau for visualization  
+- SQL (data cleaning, joins, aggregations)
+- Tableau (dashboarding & storytelling)
+- Data Analysis (EDA, business insights)
 
 ---
 
 ## 🔍 Key Insights
 
-### 📦 Delivery Performance (Operational Insight)
+### 📦 Delivery Performance
 
 ![Delivery Performance](images_delivery_performance.png)
 
-- ~92% of orders are delivered on time  
-- Delayed orders take significantly longer (~30 days vs ~10 days)  
-- Delivery speed is a key driver of customer experience  
+- ~92% of orders delivered on time  
+- Delayed orders take ~3x longer (~30 vs ~10 days)  
+- Delivery delays strongly impact customer experience  
 
 ---
 
-### 📈 Revenue Trends Over Time (Business Growth Analysis)
+### 📈 Revenue Trends
 
 ![Revenue Trends](images/revenue_trends.png)
 
-- Revenue grew rapidly from 2017 to early 2018  
+- Rapid growth from 2017 → early 2018  
 - Peak reached in 2018 Q1  
-- Revenue declines after the peak  
+- Decline afterwards introduces uncertainty  
 
 ⚠️ Important:
-- The cause of the decline **cannot be confirmed with the available data**  
-- Possible factors: competition, marketing changes, operational constraints  
+- Root cause cannot be confirmed with available data  
+- Possible factors: competition, pricing, marketing, operations  
 
 ---
 
 ## 📊 Summary Insights
 
-- Technology products show strong demand with clear growth until 2018  
-- Customers are price-sensitive → mid-range products perform best  
-- Delivery performance is high, but delays heavily impact customer experience  
-- Revenue trend introduces uncertainty about long-term growth  
+- Strong demand for technology products  
+- Customers are price-sensitive → mid-range performs best  
+- Delivery is generally reliable, but delays are critical  
+- Growth is not clearly stable → risk in expansion  
 
 ---
 
 ## 💼 Business Recommendation
 
-- Focus expansion on **mid-range technology products**, where demand is strongest  
-- Improve handling of delayed deliveries, as extreme delays significantly impact customer satisfaction  
-- Maintain current logistics performance, but prioritize reducing long delivery outliers  
+- Focus expansion on **mid-range tech products**
+- Prioritize **reducing extreme delivery delays**
+- Maintain logistics performance while improving consistency  
 
-⚠️ Risk Consideration:
-- Revenue decline after 2018 signals potential instability  
-- Expansion should be **validated with additional data (costs, competition, marketing)** before scaling  
-
----
-
-## 📊 Visualizations
-
-The Tableau dashboard includes:
-
-- Demand by product category  
-- Revenue distribution by price range  
-- Delivery performance and delays  
+⚠️ Risk:
+- Revenue decline requires validation before scaling  
+- Further analysis needed (costs, competition, marketing)
 
 ---
 
-## 🧠 Key Takeaway
+## 💻 SQL Example (Proof of Work)
 
-While demand for tech products is strong, **uncertainty in revenue trends requires cautious expansion**.  
-A focused strategy on mid-range products combined with improved delivery reliability offers the strongest opportunity.
+```sql
+SELECT 
+    order_status,
+    AVG(DATEDIFF(order_delivered_customer_date, order_purchase_timestamp)) AS avg_delivery_time
+FROM orders
+GROUP BY order_status;

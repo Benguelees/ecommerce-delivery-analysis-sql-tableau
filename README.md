@@ -10,10 +10,8 @@ Key questions:
 
 👉 Objective: Deliver actionable insights to support a data-driven expansion decision.
 
-**🔑 Key Takeaway**
-
-Strong demand for tech products is offset by declining revenue after 2018 Q1 and significant delivery delays — expansion should focus on mid-range products while improving operational efficiency.
-
+🔑 Key Takeaway  
+Strong demand exists for tech products, but revenue instability and delivery delays introduce risk — expansion should focus on mid-range products and operational efficiency.
 ---
 
 ## 📊 Dataset
@@ -91,7 +89,7 @@ Validate revenue trends and investigate cost and market dynamics before scaling 
 ## 💻 SQL Analysis (Core Queries)
 
 ### 1. Delivery Performance by Order Status
-
+Data tables used: orders, order_items, payments
 ```sql
 SELECT
     order_status,
@@ -123,3 +121,8 @@ FROM order_items
 GROUP BY price_segment;
 
 **Insight:** Mid-range products generate the highest order volume, indicating strong price sensitivity.
+
+## 📌 Conclusion
+
+This analysis shows that while demand for tech products is strong, operational inefficiencies and revenue instability introduce risk.  
+A focused expansion strategy targeting mid-range products, combined with improved delivery performance, offers the most balanced path for growth.

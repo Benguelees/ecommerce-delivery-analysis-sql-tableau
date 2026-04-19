@@ -76,11 +76,38 @@ Key questions:
 
 ---
 
-## 💻 SQL Example (Proof of Work)
+## 💻 SQL Analysis (Core Queries)
+
+### 1. Delivery Performance by Order Status
 
 ```sql
-SELECT 
+SELECT
     order_status,
-    AVG(DATEDIFF(order_delivered_customer_date, order_purchase_timestamp)) AS avg_delivery_time
+    ROUND(AVG(DATEDIFF(order_delivered_customer_date, order_purchase_timestamp)), 1) AS avg_delivery_days
 FROM orders
 GROUP BY order_status;
+
+**Insight:** Delayed orders take ~3x longer than on-time deliveries, highlighting a significant delivery performance gap.
+
+SELECT
+    YEAR(order_purchase_timestamp) AS year,
+    QUARTER(order_purchase_timestamp) AS quarter,
+    ROUND(SUM(payment_value), 0) AS total_revenue
+FROM orders o
+JOIN payments p ON o.order_id = p.order_id
+GROUP BY year, quarter
+ORDER BY year, quarter;
+
+**Insight:** Revenue grows steadily until 2018 Q1, followed by a decline — introducing uncertainty in demand sustainability.
+
+SELECT
+    CASE
+        WHEN price < 50 THEN 'Low'
+        WHEN price BETWEEN 50 AND 150 THEN 'Mid'
+        ELSE 'High'
+    END AS price_segment,
+    COUNT(*) AS total_orders
+FROM order_items
+GROUP BY price_segment;
+
+**Insight:** Mid-range products generate the highest order volume, indicating strong price sensitivity.

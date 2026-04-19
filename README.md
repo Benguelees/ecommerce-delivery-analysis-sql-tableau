@@ -10,8 +10,9 @@ Key questions:
 
 👉 Objective: Deliver actionable insights to support a data-driven expansion decision.
 
-**Key takeaway:**  
-Tech products show strong demand, but declining revenue after 2018 Q1 and delivery delays introduce risk — expansion should be cautious and operationally focused.
+**🔑 Key Takeaway**
+
+Strong demand for tech products is offset by declining revenue after 2018 Q1 and significant delivery delays — expansion should focus on mid-range products while improving operational efficiency.
 
 ---
 

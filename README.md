@@ -49,20 +49,18 @@ This analysis aims to provide data-driven insights to support a strategic expans
 
 ![Revenue Trends](images/revenue_trends.png)
 
-- Strong growth from 2017 to early 2018  
+- Revenue grew rapidly from 2017 to early 2018, indicating increasing market demand for tech products
 - Peak reached in 2018 Q1  
 - Decline after 2018 Q1 indicates potential market saturation or operational inefficiencies
 
 
 ---
 
-### 📊 Summary Insights
+## 📊 Summary Insights
 
-- 📈 Strong demand for technology products (electronics, accessories)  
-- 💰 Customers are highly price-sensitive → mid-range products perform best  
-- ⏱️ Average delivery time ≈ 12.5 days  
-- ❗ Delivery delays are **not strongly influenced by product size**  
-
+- Tech products show strong market demand with clear growth until 2018
+- Delivery performance is high (~92% on-time) but delays significantly impact experience
+- Mid-range products outperform → customers are price-sensitive
 ---
 
 ## 📊 Visualizations

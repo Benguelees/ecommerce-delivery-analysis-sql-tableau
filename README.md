@@ -37,7 +37,7 @@ This analysis aims to provide data-driven insights to support a strategic expans
 ## 🔍 Key Insights
 
 ### 📦 Delivery Performance (Operational Insight)
-![Delivery Performance](delivery_performance.png)
+![Delivery Performance](images/delivery_performance.png)
 
 - ~92% of orders delivered on time  
 - Delayed orders take significantly longer (~30 days vs ~10 days)  

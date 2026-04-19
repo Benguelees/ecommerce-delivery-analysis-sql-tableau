@@ -43,7 +43,7 @@ Key questions:
 
 ### 📈 Revenue Trends
 
-![Revenue Trends](images/revenue_trends.png)
+![Revenue Trends](revenue_trends.png)
 
 - Rapid growth from 2017 → early 2018  
 - Peak reached in 2018 Q1  
